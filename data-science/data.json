@@ -15,14 +15,6 @@
                     "gh": "https://github.com/scikit-learn/scikit-learn"
                 },
                 {
-                    "id": "Spark_MLlib",
-                    "name1": "Spark MLlib",
-                    "image": "sparkmlib.png",
-                    "link": "https://spark.apache.org/mllib/",
-                    "desc": "Apache Spark's scalable machine learning library.",
-                    "gh": "https://github.com/apache/spark"
-                },
-                {
                     "id": "XGBoost",
                     "name1": "XGBoost",
                     "image": "xgboost.png",
@@ -53,14 +45,6 @@
                     "gh": "https://github.com/tensorflow/tensorflow"
                 },
                 {
-                    "id": "Keras",
-                    "name1": "Keras",
-                    "image": "keras.png",
-                    "desc": "Deep Learning for humans",
-                    "link": "https://keras.io/",
-                    "gh": "https://github.com/keras-team/keras"
-                },
-                {
                     "id": "Sonnet",
                     "name1": "Sonnet",
                     "image": "sonnet.png",
@@ -75,14 +59,6 @@
                     "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
                     "link": "https://pytorch.org/",
                     "gh": "https://github.com/pytorch/pytorch"
-                }, 
-                {
-                    "id": "CNTK",
-                    "name1": "CNTK",
-                    "image": "cntk.png",
-                    "desc": "The Microsoft Cognitive Toolkit",
-                    "link": "https://docs.microsoft.com/en-us/cognitive-toolkit/",
-                    "gh": "https://github.com/microsoft/CNTK"
                 },
                 {
                     "id": "MXNet",
@@ -145,6 +121,22 @@
             "name1": "Natural Language Processing",
             "children": [
                 {
+                    "id": "BERT",
+                    "name1": "BERT",
+                    "image": "bert.png",
+                    "desc": "A new method of pre-training language representations which obtains state-of-the-art results on a wide array of Natural Language Processing (NLP) tasks",
+                    "link": "https://github.com/google-research/bert",
+                    "gh": "https://github.com/google-research/bert"
+                },
+                {
+                    "id": "transformers",
+                    "name1": "Transformers",
+                    "image": "transformers.png",
+                    "desc": "State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch",
+                    "link": "https://huggingface.co/transformers/",
+                    "gh": "https://github.com/huggingface/transformers"
+                },
+                {
                     "id": "AllenNLP",
                     "name1": "AllenNLP",
                     "image": "allennlp.png",
@@ -161,36 +153,12 @@
                     "gh": "https://github.com/flairNLP/flair"
                 },
                 {
-                    "id": "gensim",
-                    "name1": "gensim",
-                    "image": "gensim.png",
-                    "link": "https://radimrehurek.com/gensim",
-                    "desc": "topic modeling for humans",
-                    "gh": "https://github.com/RaRe-Technologies/gensim"
-                },
-                {
-                    "id": "NLTK",
-                    "name1": "NLTK",
-                    "image": "nltk.jpg",
-                    "link": "http://www.nltk.org",
-                    "desc": "Natural Language Toolkit",
-                    "gh": "https://github.com/nltk/nltk"
-                },
-                {
                     "id": "spaCy",
                     "name1": "spaCy",
                     "image": "spacy.png",
                     "link": "https://spacy.io",
                     "desc": "Industrial-Strength Natural Language Processing",
                     "gh": "https://github.com/explosion/spaCy"
-                },
-                {
-                    "id": "StanfordNLP",
-                    "name1": "StanfordNLP",
-                    "image": "stanfordnlp.png",
-                    "link": "https://stanfordnlp.github.io/stanfordnlp",
-                    "desc": "Python NLP Library for Many Human Languages",
-                    "gh": "https://github.com/stanfordnlp/stanfordnlp"
                 },
                 {
                     "id": "fastText",
@@ -221,6 +189,14 @@
                     "link": "https://github.com/mozilla/DeepSpeech",
                     "desc": "A TensorFlow implementation of Baidu's DeepSpeech architecture",
                     "gh": "https://github.com/mozilla/DeepSpeech"
+                },
+                {
+                    "id": "wav2letter",
+                    "name1": "wav2letter",
+                    "image": "wav2letter.png",
+                    "link": "https://github.com/facebookresearch/wav2letter",
+                    "desc": "Facebook AI Research's Automatic Speech Recognition Toolkit",
+                    "gh": "https://github.com/facebookresearch/wav2letter"
                 }
             ]
         },
@@ -250,6 +226,68 @@
                     "desc": "Detectron2 is FAIR's next-generation research platform for object detection.",
                     "link": "https://github.com/facebookresearch/detectron2",
                     "gh": "https://github.com/facebookresearch/detectron2"
+                },
+                {
+                    "id": "openpose",
+                    "name1": "OpenPose",
+                    "image": "openpose.png",
+                    "desc": "Real-time multi-person keypoint detection library for body, face, hands, and foot estimation",
+                    "link": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
+                    "gh": "https://github.com/CMU-Perceptual-Computing-Lab/openpose"
+                },
+                {
+                    "id": "facenet",
+                    "name1": "facenet",
+                    "image": "facenet.jfif",
+                    "desc": "Face recognition using Tensorflow",
+                    "link": "https://github.com/davidsandberg/facenet",
+                    "gh": "https://github.com/davidsandberg/facenet"
+                }
+            ]
+        },
+        {
+            "id": "distributed",
+            "name1": "Distributed Training",
+            "children": [
+                {
+                    "id": "SparkMLlib",
+                    "name1": "Spark MLlib",
+                    "image": "sparkmlib.png",
+                    "link": "https://spark.apache.org/mllib/",
+                    "desc": "Apache Spark's scalable machine learning library.",
+                    "gh": "https://github.com/apache/spark"
+                },
+                {
+                    "id": "Mahout",
+                    "name1": "Mahout",
+                    "image": "mahout.png",
+                    "link": "http://mahout.apache.org/",
+                    "desc": "For Creating Scalable Performant Machine Learning Applications",
+                    "gh": "https://github.com/apache/mahout"
+                },
+                {
+                    "id": "Horovod",
+                    "name1": "Horovod",
+                    "image": "horovod.png",
+                    "link": "https://eng.uber.com/horovod/",
+                    "desc": "Uber’s Open Source Distributed Deep Learning Framework for TensorFlow",
+                    "gh": "https://github.com/horovod/horovod"
+                },
+                {
+                    "id": "Dask",
+                    "name1": "Dask",
+                    "image": "dask.png",
+                    "link": "https://dask.org/",
+                    "desc": "Advanced parallelism for analytics, enabling performance at scale for the tools you love",
+                    "gh": "https://github.com/dask/dask"
+                },
+                {
+                    "id": "Ray",
+                    "name1": "Ray",
+                    "image": "ray.png",
+                    "link": "https://ray.io/",
+                    "desc": "A fast and simple framework for building and running distributed applications",
+                    "gh": "https://github.com/ray-project/ray"
                 }
             ]
         },
@@ -288,6 +326,15 @@
                     "desc": "An open source AutoML toolkit for neural nets hyper-parameter tuning.",
                     "link": "https://github.com/microsoft/nni",
                     "gh": "https://github.com/microsoft/nni"
+                },
+                {
+                    "id": "adanet",
+                    "name1": "AdaNet",
+                    "image": "adanet.jpeg",
+                    "desc": "Fast and flexible AutoML with learning guarantees",
+                    "link": "https://adanet.readthedocs.io",
+                    "gh": "https://github.com/tensorflow/adanet"
+
                 }
             ]
         },
@@ -318,14 +365,6 @@
                     "desc": "Web-based notebook that enables data-driven, interactive data analytics.",
                     "link": "https://zeppelin.apache.org/",
                     "gh": "https://github.com/apache/zeppelin"
-                },
-                {
-                    "id": "Rodeo",
-                    "name1": "Rodeo",
-                    "image": "rodeo.jfif",
-                    "link": "https://rodeo.yhat.com/",
-                    "desc": "A Native Python IDE for Data Science",
-                    "gh": "https://github.com/yhat/rodeo"
                 }
             ]
         },
@@ -378,14 +417,6 @@
                     "desc": "Open source machine learning deployment",
                     "link": "https://www.seldon.io/",
                     "gh": "https://github.com/SeldonIO/seldon-core"
-                },
-                {
-                    "id": "PredictionIO",
-                    "name1": "PredictionIO",
-                    "image": "predictionio.png",
-                    "desc": "a machine learning server for developers and ML engineers",
-                    "link": "https://predictionio.apache.org/",
-                    "gh": "https://github.com/apache/predictionio"
                 }
             ]
         }
